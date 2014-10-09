@@ -97,7 +97,7 @@ def fromDenary(num, base):
 		remainders.append(newRemainder)
 		num = div
 	for item in remainders:
-		baseString = item + baseStringa
+		baseString = item + baseString
 	return baseString
 
 def toDenary(num, base):
